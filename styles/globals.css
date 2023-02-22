@@ -98,8 +98,16 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+img{
+  border-radius: 3rem;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
