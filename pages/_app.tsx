@@ -11,7 +11,7 @@ function App({ Component, pageProps }: AppProps) {
   const { locale } = router
   
   return (
-    <Locale.Provider value={'locale'} >
+    <Locale.Provider value={locale} >
     <Layout>
       <Component {...pageProps} />
     </Layout>
